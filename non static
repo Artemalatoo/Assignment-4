@@ -22,7 +22,7 @@ public class ReverseNumber {
 }
 import java.util.*;
 public class ArmstrongChecker {
-    public static boolean isArmstrongNumber(int n) {
+    public boolean isArmstrongNumber(int n) {
         int originalNumber = n;
         int sum = 0;
         int numberOfDigits = String.valueOf(n).length(); 
@@ -53,7 +53,7 @@ public class ArmstrongChecker {
 }
 import java.util.*;
 public class DigitSumCalculator {
-    public static int sumOfDigits(int n) {
+    public  int sumOfDigits(int n) {
         int sum = 0;
         n = Math.abs(n);
         while (n > 0) {
@@ -80,7 +80,7 @@ public class DigitSumCalculator {
 }
 import java.util.*;
 public class PerfectNumberChecker {
-    public static boolean isPerfectNumber(int n) {
+    public  boolean isPerfectNumber(int n) {
         if (n <= 1) return false; 
         int sum = 0;
         for (int i = 1; i <= n / 2; i++) {
